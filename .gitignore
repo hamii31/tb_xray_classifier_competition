@@ -1,0 +1,24 @@
+# Data — don't redistribute the dataset
+data.zip
+data/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Model artifacts (you don't have any saved, but in case you add later)
+*.pt
+*.pth
